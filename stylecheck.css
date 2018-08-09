@@ -1,0 +1,87 @@
+
+
+/*                                               /css document//
+                                                     /wnm-249//
+                                                /summer 2018//
+                                             /final project//
+                                          /cory l thorbeck//
+                                            /survival kit//
+*/
+
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=331eb1b8-cb98-4798-a767-33fb89a4d869&fontids=1489058");
+@font-face{
+    font-family:"Helvetica Neue LT W01_33 Th Ex";
+    src:url("Fonts/1489058/170b06bb-fec9-4e1b-9fa8-ddc9b686d8b5.eot?#iefix");
+    src:url("Fonts/1489058/170b06bb-fec9-4e1b-9fa8-ddc9b686d8b5.eot?#iefix") format("eot"),url("Fonts/1489058/76623803-2b62-4c34-be21-c81ead28b379.woff2") format("woff2"),url("Fonts/1489058/327669a6-efac-4cce-9e96-13dd2d2e680e.woff") format("woff"),url("Fonts/1489058/b32ece14-a4d6-4dd6-959c-aad90747cb77.ttf") format("truetype");
+}
+
+                                                       
+@-ms-viewport{width:device-width;}                                                    }
+*{overflow:hidden;}
+html{margin:0; padding:0px; border:0px;}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1920px;
+  }
+}
+
+
+
+body{width:1920px; height:auto; font-family:"Helvetica Neue LT W01_33 Th Ex"; letter-spacing: 6px; }
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px; 
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.row-10{width:10%; height:auto;}
+.row-25{width:25%; height:auto;}
+.row-33{width:33%; height:auto;}
+.row-50{width:50%; height:auto;}
+.row-66{width:60%; height:auto;}
+.row-75{width:75%; height:auto;}
+.row{position: relative;width: 1903px; min-height:400px;}
+
+.col-1 {-ms-flex: 0 0 8.333333%;flex: 0 0 8.333333%; max-width: 8.333333%;}
+.col-2 {-ms-flex: 0 0 16.666667%;flex: 0 0 16.666667%;max-width: 16.666667%;}
+.col-3 {-ms-flex: 0 0 25%;flex: 0 0 25%;max-width: 25%;}
+.col-4 {-ms-flex: 0 0 33.333333%;flex: 0 0 33.333333%;max-width: 33.333333%;}
+.col-5 {-ms-flex: 0 0 41.666667%;flex: 0 0 41.666667%;max-width: 41.666667%;}
+.col-6 {-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
+.col-7 {-ms-flex: 0 0 58.333333%;flex: 0 0 58.333333%;max-width: 58.333333%;}
+.col-8 {-ms-flex: 0 0 66.666667%;flex: 0 0 66.666667%;max-width: 66.666667%;}
+.col-9 {-ms-flex: 0 0 75%;flex: 0 0 75%;max-width: 75%;}
+.col-10 {-ms-flex: 0 0 83.333333%;flex: 0 0 83.333333%;max-width: 83.333333%;}
+.col-11 {-ms-flex: 0 0 91.666667%;flex: 0 0 91.666667%;max-width: 91.666667%;}
+.col-12 {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+
+
+.#nav-main.row{margin:0px;height:220px;}
+.nav-box{display:block;
+  text-align:center;
+  width:1920px;
+  padding-top:200px;
+   word-spacing: 105px;}
+
+ul{list-style-type: none;display: inline;}
+ul li{display: inline;}
+ul li a{list-style-type: none;
+   text-decoration-color: transparent; 
+   color:rgb(179, 84, 84);  }
+ul li a:hover{color:rgb(180, 154, 154)}
+ul .full-nav a{
+  display: inline-flex;
+  float:left;}
+.full-nav{
+  position:relative;
+  float:left;
+}
+
+ul .full-nav{  height:20px; width:100%;
+}
+#sec{display:block; border:10px solid green; }
+.sec{{display:inline-block;height:400px;width:25%;;border:5px solid black;float:left;}
+#sec-one{display:inline;height:400px;width:25%;%;border:5px solid black;float:left;}
